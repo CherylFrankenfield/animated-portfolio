@@ -13,6 +13,31 @@ html {
   height: 100vh;
 }
 
+.hello h1 {
+  color: white;
+  font-size: 60px;
+  margin-left: 50px;
+  text-align: center;
+}
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(.8);
+  }
+}
+
+.hello {
+  animation: bounceIn 4s;
+}
+
 .menu-bar {
   font-size: 100px;
   color: white;
